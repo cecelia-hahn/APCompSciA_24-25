@@ -9,9 +9,9 @@ public class Island{
         //assign job to number
         String job = "";
         if (rand == 1)
-            job = "mechanic";
+            job = "mechanic"; 
         else if (rand == 2)
-            job = "chef";
+            job = "chef"; 
         else if (rand == 3)
             job = "carpenter";
         else
@@ -65,7 +65,7 @@ public class Island{
         //first letter name
         String nameLetter1 = name1.substring(0,1);
         
-        if (firstLetter.toLowerCase().equals(nameLetter1) && lastLetter.toLowerCase().equals(nameLetter1)){
+        if (firstLetter.toLowerCase().equals(nameLetter1.toLowerCase()) && lastLetter.toLowerCase().equals(nameLetter1.toLowerCase())){
             System.out.println("Good job! You passed!");
              return "pass";
         }
